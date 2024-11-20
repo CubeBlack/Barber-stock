@@ -11,7 +11,7 @@ export default function RootLayout() {
       </div>
       <footer>
         <hr />
-        Feito com React Router DOM
+        Feito com React Router DOM | Daniel Lima, Lucas, ...
       </footer>
     </>
   );
