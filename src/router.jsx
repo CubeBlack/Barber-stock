@@ -15,6 +15,7 @@ import ListUsuario from "./usuarios/ListUsuario";
 import CreateUsuario from "./usuarios/CreateUsuario";
 import ShowUsuario from "./usuarios/ShowUsuario";
 import UpdateUsuario from "./usuarios/UpdateUsuario";
+import DeleteUsuario from "./usuarios/DeleteUsuario";
 
 /* Agendamentos */
 import AgendamentoLayout from "./agendamentos/AgendamentoLayout";
@@ -22,6 +23,7 @@ import ListAgendamento from "./agendamentos/ListAgendamento";
 import CreateAgendamento from "./agendamentos/CreateAgendamento";
 import ShowAgendamento from "./agendamentos/ShowAgendamento";
 import UpdateAgendamento from "./agendamentos/UpdateAgendamento";
+
 
 const router = createBrowserRouter([
   {
@@ -59,6 +61,7 @@ const router = createBrowserRouter([
           { path: "new", element: <CreateUsuario /> },
           { path: ":id", element: <ShowUsuario /> },
           { path: ":id/update", element: <UpdateUsuario /> },
+          { path: ":id/delete", element: <DeleteUsuario /> },
         ],
       },
 

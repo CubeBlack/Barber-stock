@@ -8,14 +8,14 @@ export default function LayoutUsuario() {
       <h1>Usuarios</h1>
       <div className="tabs">
         <Link
-          to="/agendamentos"
-          className={`tab ${pathname === "/agendamentos" ? "active" : ""}`}
+          to="/usuarios"
+          className={`tab ${pathname === "/usuarios" ? "active" : ""}`}
         >
           Todos os usuarios
         </Link>
         <Link
-          to="/agendamentos/new"
-          className={`tab ${pathname === "/agendamentos/new" ? "active" : ""}`}
+          to="/usuarios/new"
+          className={`tab ${pathname === "/usuarios/new" ? "active" : ""}`}
         >
           Novo usuario
         </Link>
