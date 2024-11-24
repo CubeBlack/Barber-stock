@@ -5,11 +5,11 @@ export default function Header() {
       <h1>Barbearia</h1>
       <nav>
         <Link to="/">Inicio</Link>
-        <Link to="items">Estoque</Link>
+        <Link to="usuarios">Usuarios</Link>
+        <Link to="clientes">Clientes</Link>
         <Link to="agendamentos">Agendamentos</Link>
-        <Link to="clientes">Clientes</Link>
-        <Link to="clientes">Clientes</Link>
         <Link to="clientes">Sair</Link>
+        <Link to="items">Estoque</Link>
       </nav>
     </header>
   );
