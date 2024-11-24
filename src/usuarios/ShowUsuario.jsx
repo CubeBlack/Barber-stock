@@ -40,6 +40,7 @@ const ShowUsuario = () => {
         <label htmlFor="">Email: </label>
         <span>{data.id}</span>
       </div>
+      
       <div>
       
         <Link to={`/usuarios/${data.id}/update`} className="button is-small">

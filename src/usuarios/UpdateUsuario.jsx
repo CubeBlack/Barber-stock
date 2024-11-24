@@ -118,7 +118,8 @@ const UpdateUsuario = () => {
         <Link to={`/usuarios/${id}/delete`} className="button is-small">
           Apagar
         </Link>
-      <button type='submit' className="button is-primary is-large">Salvar</button>
+
+      <button type='submit' className="button is-small">Salvar</button>
 
     </form>
     

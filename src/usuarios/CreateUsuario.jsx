@@ -102,7 +102,7 @@ const CreateUsuario = () => {
           />
       </div>
 
-      <button type='submit' className="button is-primary is-large">Salvar</button>
+      <button type='submit' className="button is-small">Salvar</button>
 
     </form>
   );
