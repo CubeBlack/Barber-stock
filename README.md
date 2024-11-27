@@ -9,9 +9,7 @@ Currently, two official plugins are available:
 
 
 # instalar Axios
-
- npm install axios
+npm install axios
 
  # ---
- 
  npm run dev

@@ -31,7 +31,7 @@ import ListAgendamento from "./agendamentos/ListAgendamento";
 import CreateAgendamento from "./agendamentos/CreateAgendamento";
 import ShowAgendamento from "./agendamentos/ShowAgendamento";
 import UpdateAgendamento from "./agendamentos/UpdateAgendamento";
-
+import DeleteAgendamento from "./agendamentos/DeleteAgendamento";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +58,7 @@ const router = createBrowserRouter([
           { path: "new", element: <CreateAgendamento /> },
           { path: ":id", element: <ShowAgendamento /> },
           { path: ":id/update", element: <UpdateAgendamento /> },
+          { path: ":id/delete", element: <DeleteAgendamento /> },
         ],
       },
 

@@ -9,7 +9,6 @@ export default function Header() {
         <Link to="clientes">Clientes</Link>
         <Link to="agendamentos">Agendamentos</Link>
         <Link to="clientes">Sair</Link>
-        <Link to="items">Estoque</Link>
       </nav>
     </header>
   );
